@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-flex {
+    display: flex;
+}
+
+.main-flex>* {
+    margin: 6px;
+    padding: 12px;
+    background: gray;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: white;
+}

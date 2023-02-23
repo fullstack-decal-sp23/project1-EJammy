@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EJam</title>
+    <meta name="description" content="Connor Personal Website">
+    <meta name="keywords" content="resume, projects">
+    <meta name="author" content="Connor Chang">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <main>
+        <div id="top-grid">
+            <div>
+                <h3>Hi! I'm Connor</h3>
+                <h4>I smash my keyboard and hope that cool things come out</h4>
+            </div>
+            <div>
+                <h2>About Me</h2>
+                <p>I like to write code, play video games, and watch anime</p>
+            </div>
+        </div>
+        <div class="project">
+            <h1>Projects</h1>
+            <div>
+                <h5>Personal Website</h5>
+                <p>I made a personal website</p>
+                <img src="web.png" alt="website" style="max-width: 800px;" height="auto">
+            </div>
+            <div>
+                <h5>game</h5>
+                <p>I made a game</p>
+                <iframe frameborder="0" src="https://itch.io/embed-upload/6964064?color=333333" allowfullscreen="" width="1280" height="800"><a href="https://explosivejam.itch.io/package-runner-20xx">Play Package Runner 20XX on itch.io</a></iframe>
+            </div>
+        </div>
+        <div class="project">
+            <h1>Contact</h1>
+            <div>
+                <p> connorc0627 [at] gmail.com <p>
+                <a href="https://www.linkedin.com/in/connor-chang-4a30ba202/" target="_blank">LinkedIn</a>
+                <a href="https://www.youtube.com/channel/UCWPOopPHbnHZNq0knuGFfdQ" target="_blank">YouTube</a>
+            </div>
+        </div>
+
+        <div>
+            <form>
+                <label>???</label>
+                <input type="text" id="foo">
+                <input type="submit" onclick="myFunction()">
+            </form>
+            <button onclick="myFunction()">???</button>
+        </div>
+    </main>
+</body>
+<script>
+    function myFunction() {
+        console.log(123);
+        let x = document.getElementsByTagName("form")[0];
+        window.alert(document.getElementById("foo").value);
+    }
+</script>
+</html>
